@@ -41,8 +41,7 @@ const Carousel = styled(Slider)`
       color: rgb(150, 158, 171);
     }
   }
-
-  li.slick-active button:: {
+  li.slick-active button:before {
     color: white;
   }
   .slick-list {
