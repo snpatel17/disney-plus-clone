@@ -26,6 +26,8 @@ function Detail() {
           <img src="/images/group-icon.png" />
         </GroupWatchButton>
       </Controls>
+      <SubTitle>sdfldsk</SubTitle>
+      <Description>ckfdsjl jl kjlk lj</Description>
     </Container>
   );
 }
@@ -59,6 +61,7 @@ const ImageTitle = styled.div`
   width: 35vw;
   min-height: 170px;
   min-width: 200px;
+  margin-top: 60px;
   img {
     width: 100%;
     height: 100%;
@@ -111,4 +114,19 @@ const AddButton = styled.button`
 `;
 const GroupWatchButton = styled(AddButton)`
   background: rgb(0, 0, 0);
+`;
+
+const SubTitle = styled.div`
+  color: rgb(249, 249, 249);
+  font-size: 15px;
+  min-height: 20px;
+  margin-top: 26px;
+`;
+
+const Description = styled.div`
+  line-height: 1.4;
+  font-size: 20px;
+  margin-top: 16px;
+  color: rgb(249, 249, 249);
+  max-width: 760px;
 `;
